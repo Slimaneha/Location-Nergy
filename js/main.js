@@ -417,7 +417,7 @@ function choixheur (){
         document.getElementById("buttonDeux").style.display="none"
         document.getElementById("rechercheDeux").style.display="none"
         document.getElementById("devis").style.display="block"
-        document.getElementById("voitureName").innerHTML=v4["non"]
+        document.getElementById("voitureName").innerHTML=v8["non"]
         document.getElementById("temps").innerHTML=choixHeur; 
         document.getElementById("prix").innerHTML=v8["p1"]
         document.getElementById("v8").style.display="block"
