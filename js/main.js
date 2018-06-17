@@ -677,8 +677,8 @@ function CalculeUnTaxi (){
 
     if (choixTaxiVille ===  "Ville"  && klm > 0  && passager === "1" ) {
 
-        départ = 800
-        total = klm * 300 + départ
+        départ = 500
+        total = klm * 150 + départ
         formTaxi.style.display="none"
         facture.style.display="block"
         document.getElementById("resultUn").innerHTML = klm ;
@@ -700,9 +700,9 @@ function CalculeUnTaxi (){
 
 
     else if (choixTaxiVille ===  "Hors Ville" && klm > 0 && passager === "1"  ) {
-        départ = 1200
+        départ = 700
 
-        total = klm * 300 + départ
+        total = klm * 200 + départ
         formTaxi.style.display="none"
         facture.style.display="block"
         document.getElementById("resultUn").innerHTML = klm ;
@@ -723,9 +723,9 @@ function CalculeUnTaxi (){
     }
 
     else if (choixTaxiVille ===  "Hors Ville" && klm > 0 && passager === "2" ) {
-        départ = 1400
+        départ = 800
 
-        total = klm * 300 + départ
+        total = klm * 200 + départ
         formTaxi.style.display="none"
         facture.style.display="block"
         document.getElementById("resultUn").innerHTML = klm ;
@@ -748,9 +748,9 @@ function CalculeUnTaxi (){
 
 
     else if (choixTaxiVille ===  "Ville" && klm > 0 && passager === "2" ) {
-        départ = 1000
+        départ = 600
 
-        total = klm * 300 + départ
+        total = klm * 150 + départ
         formTaxi.style.display="none"
         facture.style.display="block"
         document.getElementById("resultUn").innerHTML = klm ;
@@ -772,9 +772,9 @@ function CalculeUnTaxi (){
 
 
     else if (choixTaxiVille ===  "Hors Ville" && klm > 0 && passager === "3" ) {
-        départ = 1600
+        départ = 900
 
-        total = klm * 300 + départ
+        total = klm * 200 + départ
         formTaxi.style.display="none"
         facture.style.display="block"
         document.getElementById("resultUn").innerHTML = klm ;
@@ -796,9 +796,9 @@ function CalculeUnTaxi (){
 
 
     else if (choixTaxiVille ===  "Ville" && klm > 0 && passager === "3" ) {
-        départ = 1200
+        départ = 800
 
-        total = klm * 300 + départ
+        total = klm * 150 + départ
         formTaxi.style.display="none"
         facture.style.display="block"
         document.getElementById("resultUn").innerHTML = klm ;
