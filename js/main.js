@@ -10,8 +10,8 @@ var voiture2 = "Issy"
 
 var v1 = {
     non: "BF-400",
-    p1 :"8 000$",
-    p2 :"15 000$",
+    p1 :"3 000$",
+    p2 :"4 500$",
     disponibilité:"Disponible",
     description:"Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas ",
 
@@ -21,8 +21,8 @@ var v1 = {
 
 var v2 = {
     non: "Issy",
-    p1 :"3 000$",
-    p2 :"6 000$",
+    p1 :"1 000$",
+    p2 :"2 000$",
 
     disponibilité:"Disponible",
     description:"Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas ",
@@ -31,8 +31,8 @@ var v2 = {
 }
 var v3 = {
     non: "TAILGATER",
-    p1 :"8 000$",
-    p2 :"15 000$",
+    p1 :"3 000$",
+    p2 :"4 500$",
     disponibilité:"Disponible",
     description:"Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas ",
 
@@ -44,8 +44,8 @@ var v3 = {
 var v4 = {
 
         non: "Shafter-V12",
-        p1 :"13 000$",
-        p2 :"22 000$",
+        p1 :"5 000$",
+        p2 :"9 000$",
         disponibilité:"Disponible",
         description:"Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas ",
 
@@ -54,8 +54,8 @@ var v4 = {
 
     var v5 = {
     non: "VACCA",
-    p1 :"17 000",
-    p2 :"25 000$",
+    p1 :"9 000",
+    p2 :"15 000$",
     disponibilité:"Disponible",
     description:"Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas ",
 
@@ -64,8 +64,8 @@ var v4 = {
 
    var v6 = {
     non: "DUBSTA 6x6",
-    p1 :"12 000$",
-    p2 :"22 000$",
+    p1 :"9 000$",
+    p2 :"11 000$",
      disponibilité:"Disponible",
     description:"Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas ",
 
@@ -75,7 +75,7 @@ var v4 = {
     var v7 = {
     non: "FELON-GT",
     p1 :"3 000$",
-    p2 :"5 000$",
+    p2 :"5 500$",
     disponibilité:"Disponible",
     description:"Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas ",
 
@@ -84,9 +84,16 @@ var v4 = {
 
 v8 = {
         non: "RUMPO",
-        p1 : "13 000 $",
-        p2: "22 000" ,
+        p1 : "5 000 $",
+        p2: "7 000" ,
         description : ""
+}
+
+v9 = {
+    non: "Audi RS6",
+    p1 : "8 000 $",
+    p2: "15 000" ,
+    description : ""
 }
 
 
@@ -119,6 +126,7 @@ document.getElementById("voiture5").innerHTML=v5["non"]
 document.getElementById("voiture6").innerHTML=v6["non"]
 document.getElementById("voiture7").innerHTML=v7["non"]
 document.getElementById("voiture8").innerHTML=v8["non"]
+document.getElementById("voiture9").innerHTML=v9["non"]
 
 
 
@@ -443,6 +451,40 @@ function choixheur (){
 
     }
 
+    else if (choixHeur === "3 Heure" && choix === v9["non"]){
+
+        document.getElementById("buttonDeux").style.display="none"
+        document.getElementById("rechercheDeux").style.display="none"
+        document.getElementById("devis").style.display="block"
+        document.getElementById("voitureName").innerHTML=v9["non"]
+        document.getElementById("temps").innerHTML=choixHeur;
+        document.getElementById("prix").innerHTML=v9["p1"]
+        document.getElementById("v9").style.display="block"
+
+        document.getElementById("total").innerHTML= "8 000$" ;
+
+        tour ++
+
+    }
+
+
+    else if (choixHeur === "6 Heure" && choix === v9["non"]){
+
+        document.getElementById("buttonDeux").style.display="none"
+        document.getElementById("rechercheDeux").style.display="none"
+        document.getElementById("devis").style.display="block"
+        document.getElementById("voitureName").innerHTML=v9["non"]
+        document.getElementById("temps").innerHTML=choixHeur;
+        document.getElementById("prix").innerHTML=v9["p2"]
+        document.getElementById("v9").style.display="block"
+
+        document.getElementById("total").innerHTML= "15 000$" ;
+
+        tour ++
+
+    }
+
+
 
 
 
@@ -475,7 +517,8 @@ function chois (){
         document.getElementById("v5").style.display="none";
         document.getElementById("v6").style.display="none";
         document.getElementById("v7").style.display="none";
-        document.getElementById("v8").style.display="none"
+        document.getElementById("v8").style.display="none";
+        document.getElementById("v9").style.display="none"
 
 
     }
@@ -589,6 +632,8 @@ function taxi(){
 
  }
 
+
+
  function taxiBack(){
     document.getElementById("location").style.opacity="1"
     document.getElementById("headButton").style.display="none"
@@ -596,6 +641,16 @@ function taxi(){
 
 
  }
+
+ function prix9 () {
+    document.getElementById("prix9").style.display="block"
+
+}
+
+function back9 (){
+    document.getElementById("prix9").style.display="none"
+
+}
 
 
  function locationUn (){
@@ -840,74 +895,6 @@ function backTaxi () {
 
 
 
-formchiffre = document.getElementById("cardDrh")
-
-
-
-function drh() {
-    testDrh= document.getElementById("formDrh").value
-
-    if (testDrh < 3500) {
-
-        document.getElementById("palierUn").style.display="block"
-        document.getElementById("chiffre1").innerHTML=testDrh+"$"
-        formchiffre.style.display="none"
-        document.getElementById("totale")
-    }
-
-    else if (testDrh >3500 && testDrh <99000) {
-        document.getElementById("palierDeux").style.display="block"
-        document.getElementById("chiffre2").innerHTML=testDrh+"$"
-        formchiffre.style.display="none"
-        document.getElementById("totale")
-        totalDrh=testDrh/2
-        document.getElementById("primeDeux").innerHTML=totalDrh+"$"
-
-
-
-
-    }
-
-    else if (testDrh >100000 && testDrh <299998) {
-        document.getElementById("palier3").style.display="block"
-        document.getElementById("chiffre3").innerHTML=testDrh+"$"
-        formchiffre.style.display="none"
-        document.getElementById("totale")
-        totalDrh=testDrh*60/100 ;
-        document.getElementById('prime3').innerHTML=totalDrh+"$"
-
-
-
-
-
-
-    }
-    else if (testDrh >299999 ) {
-        document.getElementById("palier4").style.display="block"
-        document.getElementById("chiffre4").innerHTML=testDrh+"$"
-        formchiffre.style.display="none"
-        document.getElementById("totale")
-        totalDrh=testDrh*70/100 ;
-        document.getElementById('prime4').innerHTML=totalDrh+"$"
-
-
-
-    }
-
-
-}
-
-function drhRetour () {
-    document.getElementById("palierUn").style.display="none"
-    document.getElementById("palierDeux").style.display="none"
-    document.getElementById("palier3").style.display="none"
-    document.getElementById("palier4").style.display="none"
-    testDrh = 0 ;
-    document.getElementById("cardDrh").style.display="block"
-
-
-}
-
 
 
 
@@ -917,6 +904,13 @@ function drhRetour () {
 
 
  // Var nom nav barre
+
+
+
+
+
+// Nouveaux espace employer !!
+
 
 
 

@@ -532,7 +532,7 @@ h3 {
 }
 
 #menuh{
-    color: rgb(235, 182, 8); 
+    color: rgb(235, 182, 8);
 }
 
 
@@ -546,75 +546,14 @@ h3 {
 
 
 
-#progressUn{
-    animation-name: barreUn ;
-    animation-duration: 4s;
+#modul li {
+    margin-bottom: 1em;
+    
+    border-bottom: solid black 1px ;
 }
 
-
-@keyframes barreUn {
-    0%{
-        width: 0%;
-
-    }
-
-    100% {
-        width: 5%;
-    }
-}
-
-
-#progressDeux{
-    animation-name: barreDeux ;
-    animation-duration: 4s;
-}
-
-
-@keyframes barreDeux {
-    0%{
-        width: 0%;
-
-    }
-
-    100% {
-        width: 40%;
-    }
-}
-
-
-#progress3{
-    animation-name: barre3 ;
-    animation-duration: 4s;
-}
-
-
-@keyframes barre3 {
-    0%{
-        width: 0%;
-
-    }
-
-    100% {
-        width: 70%;
-    }
-}
-
-
-#progress4{
-    animation-name: barre4 ;
-    animation-duration: 4s;
-}
-
-
-@keyframes barre4 {
-    0%{
-        width: 0%;
-
-    }
-
-    100% {
-        width: 99%;
-    }
+#bad, #bof , #bofUn , #ggcard {
+    display: none;
 }
 
 

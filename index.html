@@ -54,7 +54,9 @@
         <a class="navbar-brand nav-police" href="index.html" id="nomSite"> TaxiNergy&copy;2.0 </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"><i id="menuh" class="fas fa-taxi"></i></span>
+            <span class="navbar-toggler-icon">
+                <i id="menuh" class="fas fa-taxi"></i>
+            </span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -87,7 +89,8 @@
    </div> -->
 
     <div id="bienvenue" class="centre ">
-        <h1 class="display-7 texte-center ">Bienvenue chez TaxiNergy&copy; Company</h1><br>
+        <h1 class="display-7 texte-center ">Bienvenue chez TaxiNergy&copy; Company</h1>
+        <br>
         <h3>Notre vision de la mobilité naît de vos désirs de liberté </h3>
         <ul class="flex align-items-center">
             <li>
@@ -114,7 +117,7 @@
     <div id="partieDeux" class=" flex centre  start">
 
         <!-- Tip: use bg-* and text-* utilities to style the card -->
-        <div id="taxi" onmouseover="taxi()"  onmouseout="taxiBack ()" class="card text-white bg-dark mb-3 d-inline-block" style="max-width: 20rem;">
+        <div id="taxi" onmouseover="taxi()" onmouseout="taxiBack ()" class="card text-white bg-dark mb-3 d-inline-block" style="max-width: 20rem;">
             <div class="card-header centre">Taxi</div>
             <div class="card-body">
                 <h4 class="card-title headtitre fontHead">TaxiNergy</h4>
@@ -129,24 +132,25 @@
             <div class="card-header headtitre">Location</div>
             <div class="card-body">
                 <h4 class="card-title centre display-7 fontHead ">TaxiNergy Location </h4>
-                <p class="card-text centre ">Nouveau! Nous vous proposons une large gamme de véhicules pour tous types d'usages! Faites votre devis en ligne en 30 secondes.
-                    </p>
+                <p class="card-text centre ">Nouveau! Nous vous proposons une large gamme de véhicules pour tous types d'usages! Faites votre devis en
+                    ligne en 30 secondes.
+                </p>
             </div>
             <buttn id="headButton2" onClick="LocationUn()" class="btn btn-warning">Accédez au service </buttn>
         </div>
 
-        <div id="drh" class="card text-white bg-dark  mb-3 d-inline-block"
-        style="max-width: 20rem; margin-bottom: 2em;">
-        <div id="drhHead" class="card-header headtitre">Informations </div>
-        <div class="card-body">
-            <h4 class="card-title centre display-7 fontHead ">Taxi Nergy passe au 2.0 </h4>
-            <p class="card-text centre "> Des prix qui vont vous plaire des Nouveau véhicules en location Vous allé aimer votre liberté
+        <div id="drh" class="card text-white bg-dark  mb-3 d-inline-block" style="max-width: 20rem; margin-bottom: 2em;">
+            <div id="drhHead" class="card-header headtitre">informations </div>
+            <div class="card-body">
+                <h4 class="card-title centre display-7 fontHead ">Taxi Nergy passe au 2.0 </h4>
+                <p class="card-text centre "> Des prix qui vont vous plaire des Nouveau véhicules en location Vous allé aimer votre liberté
 
-                <br> <br>
+                    <br>
+                    <br>
                 </p>
+            </div>
+            <buttn id="headButton2" onClick="LocationUn()" class="btn btn-success">Accédez au service </buttn>
         </div>
-        <buttn id="headButton2" onClick="LocationUn()" class="btn btn-success">Accédez au service </buttn>
-    </div>
 
 
     </div>
@@ -198,7 +202,7 @@
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalVerticalLabel">DEVIS EN LIGNE</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+                        <span style="color: red" aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
@@ -226,7 +230,9 @@
                                     <option id="voiture5" value="1"></option>
                                     <option id="voiture6" value="1"></option>
                                     <option id="voiture7" value="1"></option>
-                                    <option id="voiture8"> </option></option>
+                                    <option id="voiture8"> </option>
+                                    <option id="voiture9"></option>
+                                    </option>
                                 </select>
                                 <br>
                                 <br>
@@ -271,6 +277,7 @@
                         <img id="v6" src="img/Nouveau dossier/v6.jpg" alt="voiture" class="img-fluid">
                         <img id="v7" src="img/v7.jpg" alt="voiture" class="img-fluid">
                         <img id="v8" src="img/Nouveau dossier/8.png" class="img-fluid">
+                        <img id="v9" src="img/rs6.jpg" class="img-fluid">
 
                         <br>
                         <ul class="flex ">
@@ -306,9 +313,10 @@
                 </div>
                 <div class="modal-footer">
                     <button data-toggle="collapse" href="#collapseExample" class="btn">
-                        <i class="fas fa-info"></i>
+                        <i style="color: black;" class="fas fa-info"></i>
                     </button>
-                    <p class="collapse" id="collapseExample">Si vous souhaitez de plus ample informations veuillez contacter un commercial dans la rubrique "Location" de TaxiNergy dans votre téléphone.
+                    <p class="collapse" id="collapseExample">Si vous souhaitez de plus ample informations veuillez contacter un commercial dans la rubrique "Location"
+                        de TaxiNergy dans votre téléphone.
                     </p>
 
                 </div>
@@ -361,15 +369,25 @@
 
         <div>
             <div class="d-flex flex-wrap flexn     " style="justify-content: center; margin-bottom: 3em; ">
+                    <div  onmouseover="prix9()" onmouseout="back9 ()" class="card text-white bg-dark   cardG">
+                            <div class="card-body">
+                                <h4 class="card-title">Audi RS6</h4>
+                                <img src="img/rs6.jpg" alt="BF400" class="img-fluid">
+                            </div>
+                            <span style="background-color: rgb(235, 182, 8); color: black;" id="prix9" class="alert alert-dark text-center ">A partir de
+                                <strong>8 000$</strong>
+                            </span>
+                            <!--<button data-toggle="modal" data-target="#exampleModalVertical" class="btn btn-info">Louer-moi</button>-->
 
+                        </div>
 
-                <div  onmouseover="prixUn()" onmouseout="back1 ()" class="card text-white bg-dark   cardG">
+                <div onmouseover="prixUn()" onmouseout="back1 ()" class="card text-white bg-dark   cardG">
                     <div class="card-body">
                         <h4 class="card-title">BF 400</h4>
                         <img src="img/v1.jpg" alt="BF400" class="img-fluid">
                     </div>
                     <span style="background-color: rgb(235, 182, 8); color: black;" id="prixUn" class="alert alert-dark text-center ">A partir de
-                        <strong>8 000$</strong>
+                        <strong>3 000$</strong>
                     </span>
                     <!--<button data-toggle="modal" data-target="#exampleModalVertical" class="btn btn-info">Louer-moi</button>-->
 
@@ -377,89 +395,89 @@
 
 
 
-                <div  onmouseover="prix2()" onmouseout="back2()" class="card text-white bg-dark  cardG">
+                <div onmouseover="prix2()" onmouseout="back2()" class="card text-white bg-dark  cardG">
                     <div class="card-body">
                         <h4 class="card-title">Issy</h4>
                         <img class="img-fluid" src="img/v2.jpg" alt="photo moto ">
                     </div>
                     <span style="background-color: rgb(235, 182, 8); color: black;" id="prix2" class="alert alert-dark text-center">A partir de
-                        <strong>3 000$</strong>
+                        <strong>1 000$</strong>
                     </span>
                     <!--        <button data-toggle="modal" data-target="#exampleModalVertical" class="btn btn-info">Louer-moi</button> -->
 
 
                 </div>
 
-                <div  onmouseover="prix3()" onmouseout="back3 ()" class="card text-white bg-dark  cardG">
+                <div onmouseover="prix3()" onmouseout="back3 ()" class="card text-white bg-dark  cardG">
                     <div class="card-body">
                         <h4 class="card-title">TAILGATER</h4>
                         <img class="img-fluid" src="img/v3.jpg" alt="photo moto ">
                     </div>
 
                     <span style="background-color: rgb(235, 182, 8); color: black;" id="prix3" class="alert alert-dark text-center">A partir de
-                        <strong> 8 000$</strong>
+                        <strong> 3 000$</strong>
                     </span>
                     <!--    <button data-toggle="modal" data-target="#exampleModalVertical" class="btn btn-info">Louer-moi</button> -->
                 </div>
 
-                <div  onmouseover="prix4()" onmouseout="back4 ()" class="card text-white bg-dark  cardG">
+                <div onmouseover="prix4()" onmouseout="back4 ()" class="card text-white bg-dark  cardG">
                     <div class="card-body">
                         <h4 class="card-title">Shafter-V12</h4>
                         <img class="img-fluid" src="img/v4.jpg" alt="photo moto ">
 
                     </div>
                     <span style="background-color: rgb(235, 182, 8); color: black;" id="prix4" class="alert alert-dark text-center">A partir de
-                        <strong>13 000$</strong>
+                        <strong>5 000$</strong>
                     </span>
                     <!--       <button data-toggle="modal" data-target="#exampleModalVertical" class="btn btn-info">Louer-moi</button> -->
                 </div>
 
 
-                <div  onmouseover="prix5()" onmouseout="back5 ()" class="card text-white bg-dark  cardG">
+                <div onmouseover="prix5()" onmouseout="back5 ()" class="card text-white bg-dark  cardG">
                     <div class="card-body">
                         <h4 class="card-title">VACCA </h4>
                         <img class="img-fluid" src="img/v5.jpg" alt="photo moto ">
                     </div>
 
                     <span style="background-color: rgb(235, 182, 8); color: black;" id="prix5" class="alert alert-dark text-center">A partir de
-                        <strong>17 000$</strong>
+                        <strong>9 000$</strong>
                     </span>
                     <!--         <button data-toggle="modal" data-target="#exampleModalVertical" class="btn btn-info">Louer-moi</button> -->
                 </div>
 
 
-                <div  onmouseover="prix6()" onmouseout="back6 ()" class="card text-white bg-dark  cardG">
+                <div onmouseover="prix6()" onmouseout="back6 ()" class="card text-white bg-dark  cardG">
                     <div class="card-body">
                         <h4 class="card-title">DUBSTA 6x6</h4>
                         <img class="img-fluid" src="img/v6.jpg" alt="photo moto ">
                     </div>
 
-                    <span style="background-color: rgb(235, 182, 8); color: black;"  id="prix6" class="alert alert-dark text-center">A partir de
-                        <strong>12 000$</strong>
+                    <span style="background-color: rgb(235, 182, 8); color: black;" id="prix6" class="alert alert-dark text-center">A partir de
+                        <strong>9 000$</strong>
                     </span>
                     <!--      <button data-toggle="modal" data-target="#exampleModalVertical" class="btn btn-info">Louer-moi</button> -->
                 </div>
 
 
-                <div  onmouseover="prix7()" onmouseout="back7 ()" class="card text-white bg-dark cardG">
+                <div onmouseover="prix7()" onmouseout="back7 ()" class="card text-white bg-dark cardG">
                     <div class="card-body">
                         <h4 class="card-title">FELON GT</h4>
                         <img class="img-fluid" src="img/v7.jpg" alt="photo moto ">
                     </div>
 
                     <span style="background-color: rgb(235, 182, 8); color: black;" id="prix7" class="alert alert-dark text-center">à partir de
-                        <strong>7 000$</strong>
+                        <strong>3 000$</strong>
                     </span>
                 </div>
 
-                <div  onmouseover="prix8()" onmouseout="back8 ()" class="card text-white bg-dark cardG">
+                <div onmouseover="prix8()" onmouseout="back8 ()" class="card text-white bg-dark cardG">
                     <div class="card-body">
                         <h4 class="card-title">RUMPO</h4>
-                        <img class="img-fluid" src="img/8.png" >
+                        <img class="img-fluid" src="img/8.png">
                     </div>
 
                     <span style="background-color: rgb(235, 182, 8); color: black;" id="prix8" class="alert alert-dark text-center">à partir de
-                        <strong>13 000$</strong>
+                        <strong>5 000$</strong>
                     </span>
 
                 </div>
@@ -487,7 +505,7 @@
                     <br> Peur de ne pas avoir assez d’argent? Calculez vos trajets en ligne !
                     <br>
 
-                    <button id="buttonRebot" data-toggle="modal" data-target="#exampleModal" class="btn btn-info">Calculez le coût de votre trajet  </button>
+                    <button id="buttonRebot" data-toggle="modal" data-target="#exampleModal" class="btn btn-info">Calculez le coût de votre trajet </button>
                     <br>
 
 
@@ -571,7 +589,9 @@
                                     <strong id="resultUn"> </strong> Kilometres</li>
                                 <li> Coût dû aux déplacements
                                     <strong id="resultDeux"> </strong> $ </li>
-                                    <li>Nombre de places <strong id="passager"></strong></li>
+                                <li>Nombre de places
+                                    <strong id="passager"></strong>
+                                </li>
                                 <li id="result3"></li>
                                 <li>Total à payer
                                     <strong id="Total"></strong> $</li>
@@ -615,147 +635,72 @@
 
 
 
-          <div class="modal" id="exampleModalDRH" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content ">
-                    <div class="modal-header  ">
-                        <h5 class="modal-title  " id="exampleModalLabel">Taxi Nergy employer ! </h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body ">
-
-                        <div id="cardDrh" style="width: 90%; " class="card flex text-white bg-dark mb-3 ">
-                            <div class="card-header">Calculer votre prime ! </div>
-                            <div class="card-body">
-                                <h4 class="card-title"> </h4>
-                                <form>
-                                    <div class="form-group">
-                                        <label for="formGroupExampleInput">Entrez votre chiffre !
-                                            <p class="text-right text-danger">Attention pas mettre d'espaces ! </p>
-                                        </label>
-                                        <input id="formDrh" type="number" class="form-control" id="formGroupExampleInput" placeholder="35000">
-                                    </div>
-                                    <button type="button" class="btn text-right btn-outline-success" onClick="drh()">Envoyer !</button>
-                                </form>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-
-
-
-
-                     <div id="palierUn">
-
-
-                        <div class="card text-white bg-dark mb-3 d-inline-block" style="width: 90%  ;">
-                            <div class="card-header">Attention à votre chiffre ! </div>
-                            <div class="card-body">
-
-                                <div class="progress">
-                                    <p style="text-align: center; "></p>
-                                    <div id="progressUn"   class="progress-bar progress-bar-striped  bg-danger" role="progressbar" style="width: 05%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                                            <p style="text-align: center; color: black">5%</p>
-                                </div>
-                                  <ul >
-                                      <li>Vous êtes à <strong id="chiffre1"></strong></li>
-                                      <li>Votre prime sera de <strong>0$</strong></li>
-                                      <li> <i class="fas fa-exclamation-triangle"></i>     Rappel le minium et de 35 000 $ ! <i class="fas fa-exclamation-triangle"></i>
-                                      </li>
-                                      <li>   <button type="button" class="btn btn-danger" onClick="drhRetour()">Retour ! </button></li>
-                                  </ul>
-
-
-                            </div>
-                          </div>
-
-                        </div>
-
-
-                        <div id="palierDeux">
-
-
-                            <div class="card text-white bg-dark mb-3 d-inline-block" style="width: 90%  ;">
-                                <div class="card-header">Vous êtes entre 35 000$ et  100 000 $</div>
-                                <div class="card-body">
-                                        <div class="progress">
-                                                <div id="progressDeux" class="progress-bar progress-bar-striped  bg-warning" role="progressbar" style="width: 40%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                                                <p style="text-align: center; color: black">40%</p>
-                                            </div>
-                                              <ul >
-                                                  <li>Vous êtes à <strong id="chiffre2"></strong></li>
-                                                  <li>Votre prime sera de <strong id="primeDeux"></strong></li>
-                                                  <li>   <button type="button" class="btn btn-danger" onClick="drhRetour()">Retour ! </button></li>
-
-                                              </ul>
-                                </div>
-                              </div>
-
-                            </div>
-
-                            <div id="palier3">
-
-                                    <div class="card text-white bg-dark mb-3 d-inline-block" style="width: 90%  ;">
-                                            <div class="card-header">Vous êtes entre 100 000$ et  300 000 $</div>
-                                            <div class="card-body">
-                                                    <div class="progress">
-                                                            <p style="text-align: center; "></p>
-                                                            <div id="progress3" class="progress-bar progress-bar-striped  bg-success" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                                                            <p style="text-align: center; color: black">70%</p>
-                                                        </div>
-                                                          <ul >
-                                                              <li>Vous êtes à <strong id="chiffre3"></strong></li>
-                                                              <li>Votre prime sera de <strong id="prime3"></strong></li>
-                                                              <li>   <button type="button" class="btn btn-danger" onClick="drhRetour()">Retour ! </button> </li>
-                                                          </ul>
-                                            </div>
-                                          </div>
-
-
-                                </div>
-
-                                <div id="palier4">
-
-                                        <div class="card text-white bg-dark mb-3 d-inline-block" style="width: 80%  ;">
-                                                <div class="card-header">Félicitation +300 000 $</div>
-                                                <div class="card-body">
-                                                        <div class="progress">
-                                                                <p style="text-align: center; "></p>
-                                                                <div id="progress4" class="progress-bar progress-bar-striped  bg-success" role="progressbar" style="width: 99%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                                                                <p style="text-align: center; color: black">99,5%</p>
-                                                          </div>
-                                                              <ul >
-                                                                  <li>Vous êtes à <strong id="chiffre4"></strong></li>
-                                                                  <li>Votre prime sera de <strong id="prime4"></strong></li>
-                                                                  <li>   <button type="button" class="btn btn-danger" onClick="drhRetour()">Retour ! </button> </li>
-                                                              </ul>
-                                                </div>
-                                              </div>
-
-
-                                    </div>
-
-
-
-
-
-
-
-
-
-
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" onClick="drhRetour()">Retour ! </button>
-                            <br>
-
-                        </div>
-                    </div>
+    <div class="modal" id="exampleModalDRH" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Espace Employer</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span style= "color: red" aria-hidden="true">&times;</span>
+                    </button>
                 </div>
+                <div class="modal-body">
+
+                    <div  id="login">
+                        <!-- ID user -->
+                        <label>Votre ID Employer </label>
+                        <div style="margin-bottom: 1em; " class="input-group input-group-sm">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                            </div>
+                            <input id="user" type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                        </div>
+
+
+                        <!--password user -->
+                        <label>Votre Mots de passe </label>
+                        <div class="input-group input-group-sm">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">
+                                    <i class="fas fa-key"></i>
+                                </span>
+                            </div>
+                            <input id="userMdp" type="password" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                        </div>
+
+                        <button onClick="pageperso ()" style="margin-top: 1em;text-align: center;" type="button" class="btn btn-outline-dark">Envoyer </button>
+                    </div>
+
+                    <!--Pages personnel ! -->
+                    <div style="display: none;  " id="Cartperso">
+
+
+
+                        <ul id="modul"  style="flex-direction: column;" class="flex">
+                            <li>Nom: <span id="nomEmployé"></span></li>
+                            <li>Poste:  <span id="poste"></span> </li>
+                            <li>Voiture: <span id="plaque"></span></li>
+                            <li>Chiffre: <span id="chiffre20"></span></li>
+                            <li>Prime: <span id="totalUn"></span></li>
+                            <li>Flash: <span id="pvUn"></span></li>
+                            <li>date de mis à jour ! <span id="maj"></span></li>
+                        </ul>
+
+
+
+                    </div>
+
+
+
+                </div>
+                <div class="modal-footer">
+                    <p>ATTENTION les chiffres sont publier tout les soirs entre 20h / 00h </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -779,6 +724,7 @@
     </script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/chiffre.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="https://use.fontawesome.com/a0c828b765.js"></script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
