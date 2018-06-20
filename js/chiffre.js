@@ -1,6 +1,6 @@
 var employer = {
     non: "Aarabaji Karim",
-    chiffre :"150000",
+    chiffre :"17945",
     poste:"Stagiaire",
     voiture :"NERGY01",
     prime :"",
@@ -13,7 +13,7 @@ var employer = {
 
 var employer2 = {
     non: "Belluci Antonio",
-    chiffre :"1",
+    chiffre :"0",
     poste:"Chauffeur privé",
     voiture :"NERGY11",
     prime :"0",
@@ -25,7 +25,7 @@ var employer2 = {
 }
 var employer3 = {
     non: "Blacke Jason",
-    chiffre :"0",
+    chiffre :"70314",
     poste:"Stagiaire",
     voiture :"NERGY04",
     prime :"",
@@ -49,7 +49,7 @@ var employer4 = {
 }
 var employer5 = {
     non: "Gutierrez Bryan",
-    chiffre :"3993",
+    chiffre :"156137",
     poste:"Stagiaire",
     voiture :"NERGY03",
     prime :"",
@@ -61,7 +61,7 @@ var employer5 = {
 }
 var employer6 = {
     non: "Heck John",
-    chiffre :"",
+    chiffre :"82995",
     poste:"Chauffeur exemplaire",
     voiture :"NERGY14",
     prime :"",
@@ -73,7 +73,7 @@ var employer6 = {
 }
 var employer7 = {
     non: "Hiwuchong Shaokyo",
-    chiffre :"",
+    chiffre :"0",
     poste:"Stagiaire",
     voiture :"NERGY05",
     prime :"",
@@ -85,7 +85,7 @@ var employer7 = {
 }
 var employer8 = {
     non: "Maloki Francky",
-    chiffre :"",
+    chiffre :"0",
     poste:"Stagiaire",
     voiture :"NERGY06",
     prime :"",
@@ -98,7 +98,7 @@ var employer8 = {
 
 var employer9 = {
     non: "Monteiro Conor",
-    chiffre :"",
+    chiffre :"0",
     poste:"Stagiaire",
     voiture :"NERGY07",
     prime :"",
@@ -110,7 +110,7 @@ var employer9 = {
 }
 var employer10 = {
     non: "Riterz Brake",
-    chiffre :"",
+    chiffre :"25587",
     poste:"Stagiaire",
     voiture :"NERGY08",
     prime :"",
@@ -123,7 +123,7 @@ var employer10 = {
 
 var employer11 = {
     non: "scaletti vito",
-    chiffre :"",
+    chiffre :"54671",
     poste:"Manager",
     voiture :"NERGY12",
     prime :"",
@@ -149,7 +149,7 @@ var employer12 = {
 
 var employer13 = {
     non: "White Michael",
-    chiffre :"",
+    chiffre :"0",
     poste:"Chauffeur privée",
     voiture :"NERGY13",
     prime :"",
@@ -162,7 +162,7 @@ var employer13 = {
 
 var employer14 = {
     non: "Wick Dallas",
-    chiffre :"30681",
+    chiffre :"122672",
     poste:"Stagiaire",
     voiture :"NERGY10",
     prime :"",
@@ -175,7 +175,7 @@ var employer14 = {
 
 var employer15 = {
     non: "Slimane Hassani",
-    chiffre :"",
+    chiffre :"21867",
     poste:"BOOSE    ",
     voiture :"SLIMANE",
     prime :"",
